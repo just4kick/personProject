@@ -12,7 +12,7 @@ function Home() {
     {/* home page text */}
       <div className="home-container">
         <div className="home-text">
-          <h1>Hello,</h1>
+          <h1>Hi,</h1>
           <p>I am Sumit, a dedicated web developer with a profound passion for crafting immersive online experiences. My journey in the realm of web development has been driven by a fascination with code and an unwavering commitment to transform creative ideas into digital reality.</p>
           <button type="button" onClick={()=>{
             window.location.href = "google.com"
