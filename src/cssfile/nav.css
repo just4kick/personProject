@@ -1,0 +1,37 @@
+nav{
+    background-color: black;
+    height: 55px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+
+}
+nav ul{
+    
+    background-color: black;
+    height: 90%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 30%;
+
+}
+nav ul li {
+    font-size: 20px;
+}
+nav ul li a:link
+{
+    color: aqua;
+    text-decoration: none;
+}
+nav ul li a:visited
+{
+    color:gainsboro;
+}
+nav ul li a:hover
+{
+    transition: all .5s ease-in-out;
+    color: yellow;
+}

@@ -1,0 +1,10 @@
+.project-title-text
+{
+    font-size: 100px;
+    text-align: center;
+}
+.project-container
+{
+    background-color: #0D0E0E;
+    display: flex;
+}
