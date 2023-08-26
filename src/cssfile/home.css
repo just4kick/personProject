@@ -1,4 +1,4 @@
-.home-container
+#home-container
 {
     background-color: #0D0E0E;
     height: calc(100vh - 55px);
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    color: aliceblue;
+    color: #CD5C5C;
     padding: 20px;
     
 }
@@ -22,6 +22,7 @@
 .home-text h1
 {
     font-size: 300px;
+
 }
 .home-text p
 {   
@@ -31,21 +32,24 @@
 }
 .home-text button
 {
-    background-color:  #555D50;
-    color: azure;
-    border: none;
+    background-color: inherit;   
+    color: #CD5C5C;
+    border: 1px solid #CD5C5C;
     border-radius: 360px;
     font-size: 27px;
     margin: 50px;
     width: 300px;
     height: 50px; 
-    transition: all .8s ease-in-out;   
+    transition: all .3s ease-in-out;   
+    z-index: 10;
 }
 .home-text button:hover
 {   
 
     font-size: 28px;
-    transition: all .8s ease-in-out; 
+    background-color: #CD5C5C;
+    color: azure;
+    transition: all .3s ease-in-out; 
     transform: scale(1.01); 
 }
 
@@ -62,6 +66,7 @@
     height: 90vh;
     filter: grayscale(1);
     transition: all .8s ease-in-out;
+    
 }
 .home-image img:hover
 {

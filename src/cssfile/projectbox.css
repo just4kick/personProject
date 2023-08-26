@@ -1,0 +1,66 @@
+
+.projectText-container{
+    background-color: #0D0E0E;
+    border: 1.5px solid #CD5C5C;
+    border-radius: 15px;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    transition: all .5s ease-in-out;
+
+}
+
+.projectText-container:hover 
+{
+    background-color: #CD5C5C;
+    transition: all .3s ease-in-out; 
+    
+
+}
+.projectText-avatar
+{
+ transition: all .5s ease-in-out; 
+  filter: grayscale(1);
+  margin: 10px;
+}
+.projectText-avatar:hover
+{
+    transition: all .5s ease-in-out;
+    filter:grayscale(0);
+}
+
+.projectText-text
+{
+    margin: 10px;
+    font-weight:600;
+    font-size: 18px;
+    color: #CD5C5C;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+    z-index: 1;
+}
+.projectText-links
+{
+    display: flex;
+    gap: 20px;
+}
+.projectText-links a{
+    text-decoration: none;
+    color: #0D0E0E;
+    font-size: 26px;
+}
+
+.projectText-links a:hover
+{
+color: aliceblue;
+transition: all .2s ease-in-out;
+}
+
+
+

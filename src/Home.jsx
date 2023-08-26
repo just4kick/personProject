@@ -6,17 +6,19 @@ function Home() {
 
     let photolink = "https://picsum.photos/500";
 
+   
+
   return (
     
     <>
     {/* home page text */}
-      <div className="home-container">
+      <div id="home-container">
         <div className="home-text">
           <h1>Hi,</h1>
           <p>I am Sumit, a dedicated web developer with a profound passion for crafting immersive online experiences. My journey in the realm of web development has been driven by a fascination with code and an unwavering commitment to transform creative ideas into digital reality.</p>
           <button type="button" onClick={()=>{
             window.location.href = "google.com"
-          }}>MY PROJECT</button>
+          }}>MY RESUME</button>
         </div>
 {/* image is of the home page */}
         <div className="home-image">

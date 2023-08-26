@@ -1,10 +1,43 @@
-.project-title-text
-{
-    font-size: 100px;
-    text-align: center;
-}
+
 .project-container
 {
-    background-color: #0D0E0E;
-    display: flex;
+    /* background-color:aqua; */
+    
+    
+}
+.project-title
+{
+    font-size: 50px;
+    color: #CD5C5C;
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 150px;
+    align-items: center;
+    justify-items: end;
+}
+.project-collection
+{
+    margin: 0px 100px;
+    /* background-color: aliceblue; */
+    display: grid;
+    justify-content: end;
+    align-items: end;
+    grid-template-columns: 500px 500px;
+    gap: 30px;
+
+    
+}
+.project-viewmore a
+{
+    position: relative;
+    font-size:30px;
+    color: #CD5C5C;
+    margin: 10px;
+    text-decoration: none;
+    transition: all .3s ease-in-out
+}
+.project-viewmore a:hover
+{
+    color: aliceblue;
+    transition: all .3s ease-in-out
 }

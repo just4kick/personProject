@@ -4,6 +4,8 @@ nav{
     display: flex;
     justify-content: end;
     align-items: center;
+    position: relative;
+    
     
 
 }
@@ -20,18 +22,19 @@ nav ul{
 }
 nav ul li {
     font-size: 20px;
+    
 }
 nav ul li a:link
 {
-    color: aqua;
+    ccolor: #CD5C5C;
     text-decoration: none;
 }
 nav ul li a:visited
 {
-    color:gainsboro;
+    color: #CD5C5C;
 }
 nav ul li a:hover
 {
-    transition: all .5s ease-in-out;
-    color: yellow;
+    transition: all .3s ease-in-out;
+    color:azure;
 }

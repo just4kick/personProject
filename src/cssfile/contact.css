@@ -1,0 +1,83 @@
+.contact-container
+{
+    display: grid;
+    grid-template-columns:300px 1fr 1fr;
+    grid-template-rows: 150px 500px;
+    background-color: inherit;
+    margin: 30px;
+    position: relative;
+}
+.contact-form
+{
+    grid-column-start: 1;
+    grid-column-start: 2;
+    background-color:inherit;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 2/3;
+    gap: 30px;
+    
+
+}
+.contactform-common
+{
+    background-color: #0D0E0E;
+    font-size: 20px;
+    
+    grid-column-start: 0;
+    grid-column-start: 1;
+    padding: 18px;
+    border: 2px solid #CD5C5C;
+    border-radius: 15px;
+    color: #CD5C5C;
+
+}
+.contact-title
+{
+    grid-column-start: 0;
+    grid-column-start: 1;
+    font-size: 30px;
+    font-weight: 900;
+    color:#CD5C5C;
+}
+.contactform-common:focus::placeholder
+{
+    color:#CD5C5C;
+    opacity: 0;
+    transition: all .3s ease-in-out; 
+}
+.contactform-common::placeholder
+{
+    color: #CD5C5C;
+    transition: all .3s ease-in-out; 
+}
+.contactform-common:focus
+{
+    outline-width: 0;
+}
+
+.contact-name
+{
+    
+
+}
+
+.contact-email
+{
+
+}
+.contact-message
+{
+   
+}
+.contact-btn
+{
+    font-size: 22px;
+    width: 200px;
+    transition: all .3s ease-in-out; 
+}
+.contact-btn:hover{
+    background-color: #CD5C5C;
+    color: azure;
+    transition: all .3s ease-in-out; 
+}

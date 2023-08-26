@@ -1,23 +1,35 @@
 import { useState } from 'react'
-import './cssfile/App.css'
+import './cssfile/app.css'
 import Nav from './Nav'
 import Home from './Home'
 import About from './About'
 import Project from './Project'
+import ImgMediaCard from './SwipeableTextMobileStepper'
+import "./jsfile/grained.min.js";
+import Contact from './Contact'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
+  var options = {
+    animate: true,
+    patternWidth: 100,
+    patternHeight: 100,
+    grainOpacity: 0.07,
+    grainDensity: 1,
+    grainWidth: 1,
+    grainHeight: 1
+  };
+  grained("#app", options);
   return (
-    <>
+    <div id = "app">
   <Nav></Nav>
   <Home></Home>
-  <Project src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Project" text="Desktop application for managing literature references using modern Java features including JavaFX. Dedicated to code quality and constructive feedback: Each Pull Request is reviewed by two developers to provide high-quality feedback and to ensure high quality of new contributions."></Project>
-  <Project src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Project" text="Desktop application for managing literature references using modern Java features including JavaFX. Dedicated to code quality and constructive feedback: Each Pull Request is reviewed by two developers to provide high-quality feedback and to ensure high quality of new contributions."></Project>
-  <Project src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Project" text="Desktop application for managing literature references using modern Java features including JavaFX. Dedicated to code quality and constructive feedback: Each Pull Request is reviewed by two developers to provide high-quality feedback and to ensure high quality of new contributions."></Project>
-  
+<Project></Project>
+<Contact action ="google.com"></Contact>
   <About></About>
-    </>
+    </div>
   )
 }
 
